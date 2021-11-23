@@ -1,4 +1,17 @@
 module.exports = {
+    head: [
+        ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        // ...其他标签
+    ],
+    plugins: [
+        [
+            '@vuepress/pwa',
+            {
+                skipWaiting: true,
+            },
+        ],
+    ],
     base: "/docs/",
     title: "wwj218",
     themeConfig: {
