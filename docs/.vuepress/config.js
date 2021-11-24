@@ -26,6 +26,7 @@ module.exports = {
             clientSecret: 'a88caabfe4026ac2dbfa69d26452b476c8f381e2',
             autoCreateIssue: true,
         },
+        '@vuepress/back-to-top': true,
     },
     themeConfig: {
         lastUpdated: '更新时间',
