@@ -2,14 +2,22 @@ module.exports = {
     base: "/docs/",
     title: "wwj218",
 
-    plugins: [
-        [
-            '@vuepress/pwa',
-            {
-                skipWaiting: true,
-            },
-        ],
-    ],
+    plugins: {
+        '@vuepress/pwa': {
+            skipWaiting: true,
+        },
+        '@vssue/vuepress-plugin-vssue': {
+            // 设置 `platform` 而不是 `api`
+            platform: 'github-v4',
+
+            // 其他的 Vssue 配置
+            owner: 'wwj218',
+            repo: 'docs',
+            clientId: '5e037a127f8162709b06',
+            clientSecret: 'a88caabfe4026ac2dbfa69d26452b476c8f381e2',
+            autoCreateIssue: true,
+        },
+    },
     themeConfig: {
         lastUpdated: '更新时间',
         logo: '/assets/img/bc.jpg',
