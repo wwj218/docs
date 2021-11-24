@@ -1,8 +1,17 @@
+const moment = require('moment');
+moment.locale("zh-cn");
+
 module.exports = {
     base: "/docs/",
     title: "wwj218",
 
     plugins: {
+
+        '@vuepress/last-updated': {
+            transformer: (timestamp) => {
+                return moment(timestamp).format('LLLL')
+            }
+        },
         '@vuepress/pwa': {
             skipWaiting: true,
         },

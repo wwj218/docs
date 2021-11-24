@@ -1,5 +1,0 @@
----
-navbar: false
----
-
-# About1
