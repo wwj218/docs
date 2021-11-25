@@ -2937,6 +2937,11 @@ cosmiconfig@^5.0.0, cosmiconfig@^5.2.1:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
+countup.js@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.nlark.com/countup.js/download/countup.js-2.0.8.tgz#eca0c31c9db3f7769cba494d9315cd52dbaaf1b9"
+  integrity sha1-7KDDHJ2z93acuklNkxXNUtuq8bk=
+
 create-ecdh@^4.0.0, create-ecdh@^4.0.4:
   version "4.0.4"
   resolved "https://registry.nlark.com/create-ecdh/download/create-ecdh-4.0.4.tgz"

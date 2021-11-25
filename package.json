@@ -143,6 +143,7 @@
         "core-js-compat": "^3.19.1",
         "core-util-is": "^1.0.3",
         "cosmiconfig": "^5.2.1",
+        "countup.js": "^2.0.8",
         "create-ecdh": "^4.0.4",
         "create-hash": "^1.2.0",
         "create-hmac": "^1.1.7",
